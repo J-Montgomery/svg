@@ -68,3 +68,129 @@ will be licensed according to the terms given in [LICENSE.md](LICENSE.md).
 [documentation-url]: https://docs.rs/svg
 [package-img]: https://img.shields.io/crates/v/svg.svg
 [package-url]: https://crates.io/crates/svg
+
+## Standards Compliance
+
+| Standard | Compatibility | Notes |
+| -------- | ------- | ------|
+| [SVG 1.1 Tiny](https://web.archive.org/web/20111229174443/http://www.w3.org/TR/SVGMobile/) | Partial | |
+| [SVG 1.2 Tiny](https://www.w3.org/TR/SVGMobile12/index.html) | Partial | |
+
+
+### SVG Tiny Support
+| Elements | 1.1 | 1.2 | Supported |
+| -------- | --- | --- | --------- |
+| a | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| animate | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| animateColor | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| animateMotion | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| animateTransform | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| animation |  | :heavy_check_mark: | :x: |
+| audio |  | :heavy_check_mark: | :x: |
+| circle | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| clipPath |  |  | :white_check_mark: |
+| defs | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| desc | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| discard |  | :heavy_check_mark: | :x: |
+| ellipse | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| filter |  |  | :white_check_mark: |
+| font |  | :heavy_check_mark: | :x: |
+| font-face | :heavy_check_mark: | :heavy_check_mark: | :x: |
+| font-face-name | :heavy_check_mark: | | :x: |
+| font-face-src | :heavy_check_mark: | :heavy_check_mark: | :x: |
+| font-face-uri |  | :heavy_check_mark: | :x: |
+| foreignObject | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| g | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| glyph | :heavy_check_mark: | :heavy_check_mark: | :x: |
+| handler |  | :heavy_check_mark: | :x: |
+| hkern | :heavy_check_mark: | :heavy_check_mark: | :x: |
+| image | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| line | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| linearGradient |  | :heavy_check_mark: | :white_check_mark: |
+| listener |  | :heavy_check_mark: | :x: |
+| marker |  |  | :white_check_mark: |
+| mask |  |  | :white_check_mark: |
+| metadata | :heavy_check_mark: | :heavy_check_mark: | :x: |
+| missing-glyph | :heavy_check_mark: | :heavy_check_mark: | :x: |
+| mpath | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| path | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| pattern |  |  | :white_check_mark: |
+| polygon | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| polyline | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| prefetch |  | :heavy_check_mark: | :x: |
+| radialGradient |  | :heavy_check_mark: | :white_check_mark: |
+| rect | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| script |  | :heavy_check_mark: | :x: |
+| set | :heavy_check_mark: | :heavy_check_mark: | :x: |
+| solidColor |  | :heavy_check_mark: | :x: |
+| stop |  | :heavy_check_mark: | :white_check_mark: |
+| svg | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| symbol |  |  | :white_check_mark: |
+| switch | :heavy_check_mark: | :heavy_check_mark: | :x: |
+| tbreak |  | :heavy_check_mark: | :x: |
+| text | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| textPath |  |  | :white_check_mark: |
+| textArea |  | :heavy_check_mark: | :x: |
+| title | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| tspan |  | :heavy_check_mark: | :x: |
+| use | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| video |  | :heavy_check_mark: | :x: |
+
+
+| Elements         | 1.1                | 1.2                | Supported          |
+|------------------|--------------------|--------------------|--------------------|
+| a                | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| animate          | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| animateColor     | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| animateMotion    | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| animateTransform | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| animation        |                    | :heavy_check_mark: | :x:                |
+| audio            |                    | :heavy_check_mark: | :x:                |
+| circle           | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| clipPath         |                    |                    | :white_check_mark: |
+| defs             | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| desc             | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| discard          |                    | :heavy_check_mark: | :x:                |
+| ellipse          | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| filter           |                    |                    | :white_check_mark: |
+| font             |                    | :heavy_check_mark: | :x:                |
+| font-face        | :heavy_check_mark: | :heavy_check_mark: | :x:                |
+| font-face-name   | :heavy_check_mark: |                    | :x:                |
+| font-face-src    | :heavy_check_mark: | :heavy_check_mark: | :x:                |
+| font-face-uri    |                    | :heavy_check_mark: | :x:                |
+| foreignObject    | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| g                | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| glyph            | :heavy_check_mark: | :heavy_check_mark: | :x:                |
+| handler          |                    | :heavy_check_mark: | :x:                |
+| hkern            | :heavy_check_mark: | :heavy_check_mark: | :x:                |
+| image            | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| line             | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| linearGradient   |                    | :heavy_check_mark: | :white_check_mark: |
+| listener         |                    | :heavy_check_mark: | :x:                |
+| marker           |                    |                    | :white_check_mark: |
+| mask             |                    |                    | :white_check_mark: |
+| metadata         | :heavy_check_mark: | :heavy_check_mark: | :x:                |
+| missing-glyph    | :heavy_check_mark: | :heavy_check_mark: | :x:                |
+| mpath            | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| path             | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| pattern          |                    |                    | :white_check_mark: |
+| polygon          | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| polyline         | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| prefetch         |                    | :heavy_check_mark: | :x:                |
+| radialGradient   |                    | :heavy_check_mark: | :white_check_mark: |
+| rect             | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| script           |                    | :heavy_check_mark: | :x:                |
+| set              | :heavy_check_mark: | :heavy_check_mark: | :x:                |
+| solidColor       |                    | :heavy_check_mark: | :x:                |
+| stop             |                    | :heavy_check_mark: | :white_check_mark: |
+| svg              | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| symbol           |                    |                    | :white_check_mark: |
+| switch           | :heavy_check_mark: | :heavy_check_mark: | :x:                |
+| tbreak           |                    | :heavy_check_mark: | :x:                |
+| text             | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| textPath         |                    |                    | :white_check_mark: |
+| textArea         |                    | :heavy_check_mark: | :x:                |
+| title            | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| tspan            |                    | :heavy_check_mark: | :x:                |
+| use              | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: |
+| video            |                    | :heavy_check_mark: | :x:                |
